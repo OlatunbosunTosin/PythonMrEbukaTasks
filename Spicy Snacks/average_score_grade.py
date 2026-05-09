@@ -6,10 +6,10 @@
 #save it in a reference 
 #calculate average
 #if the average is between 90 and 100, print A
-#elif the average is between 80 and 89, print B
-#elif the average is between 70 and 79, print C
-#elif the average is between 60 and 69, print D
-#elif the average is between 0 and 59, print F
+#else if the average is between 80 and 89, print B
+#else if the average is between 70 and 79, print C
+#else if the average is between 60 and 69, print D
+#else if the average is between 0 and 59, print F
 
 first_score = int(input("Enter first score: "))
 second_score = int(input("Enter second score: "))
