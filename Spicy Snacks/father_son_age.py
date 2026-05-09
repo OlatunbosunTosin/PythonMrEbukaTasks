@@ -9,5 +9,5 @@
 current_fathers_age = int(input("Enter father's current age: "))
 current_son_age = int(input("Enter son's current age: "))
 
-year = (current_son_age * 2) - current_fathers_age
-print(year)
+year = current_fathers_age - (current_son_age * 2) 
+print(f"The father will be twice the son's age in {year} years")
