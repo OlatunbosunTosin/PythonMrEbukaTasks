@@ -9,7 +9,7 @@ class TestThatSimpleArithmeticAppWorksCorrectly(unittest.TestCase):
         self.assertTrue(second_number > 0)
         
 
-    def test_for_total_number_of_questions(self):
+    def test_for_total_number_of_questions_and_correct_questions(self):
         total_questions, total_correct_answers = simple_arithmetic_app.subtraction_problems()
         self.assertEqual(total_questions, 10)
         self.assertTrue(total_correct_answers)
